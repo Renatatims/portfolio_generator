@@ -9,18 +9,23 @@ const questions = ([
     },
     {
         type: 'input',
-        message: 'What is your Linkedin?',
-        name: 'bio'
+        message: 'What is your phone number?',
+        name: 'phone'
+    },
+    {
+        type: 'input',
+        message: 'What is your Linkedin URL?',
+        name: 'linkedin'
     },
     {
         type: 'input',
         message: 'What is your GitHub Url?',
-        name: 'bio'
+        name: 'gitHub'
     },
     {
         type: 'input',
-        message: 'What is your main project?',
-        name: 'mainProject'
+        message: 'What is your e-mail?',
+        name: 'email'
     },
     {
         type: 'input',

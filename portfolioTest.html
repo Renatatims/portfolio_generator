@@ -1,5 +1,4 @@
-function generateIndex(data) {
-    return `
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -36,7 +35,7 @@ function generateIndex(data) {
     <!--Jumbotron-->
     <div class="jumbotron jumbotron-fluid" id="jumboName">
         <div class="container">
-          <h1 class="display-4">${data.userName}</h1>
+          <h1 class="display-4">Renata Rondon TESTING</h1>
           <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
       </div>
@@ -48,7 +47,7 @@ function generateIndex(data) {
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">${data.project1}</h5>
+              <h5 class="card-title">GitHelpNOW</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -57,7 +56,7 @@ function generateIndex(data) {
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">${data.project2}</h5>
+              <h5 class="card-title">Weather Dashboard</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -66,7 +65,7 @@ function generateIndex(data) {
         <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">${data.project3}</h5>
+                <h5 class="card-title">Daily Planner</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -75,7 +74,7 @@ function generateIndex(data) {
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">${data.project4}</h5>
+                <h5 class="card-title">Coding Quiz</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -87,7 +86,7 @@ function generateIndex(data) {
 
     <!--Contact Section-->
 <section id="contact" class="section">
-  <h2 id="contact-name"> <a href="#nav"> ${data.userName} </a> </h2>
+  <h2 id="contact-name"> <a href="#nav"> NAME </a> </h2>
   <div id="contact-line">
 
   </div>
@@ -96,19 +95,19 @@ function generateIndex(data) {
   <ul class="contact-icons">
     <li class="icons"> 
       <a> <img src="./assets/icons/phone_icon.png" alt="phone icon"> </a>
-      <p>${data.phone}</p>
+      <p>000-987-6589</p>
     </li>
     <li class="icons"> 
-      <a href="${data.email}" target="_blank"> <img src="./assets/icons/email_icon.png" alt="e-mail icon"> </a>
-      <p>${data.email}</p>
+      <a href="@gmail.com" target="_blank"> <img src="./assets/icons/email_icon.png" alt="e-mail icon"> </a>
+      <p>@gmail.com</p>
       
     </li>
     <li class="icons">
-      <a href="${data.gitHub}" target="_blank"> <img src="./assets/icons/github_icon.png" alt="GitHub icon"> </a>
+      <a href="https://github.com/" target="_blank"> <img src="./assets/icons/github_icon.png" alt="GitHub icon"> </a>
       
     </li>
     <li class="icons">
-      <a href="${data.linkedin}"  target="_blank"> <img src="./assets/icons/linkedin.png" alt="Linkedin icon"> </a>
+      <a href="https://www.linkedin.com/"  target="_blank"> <img src="./assets/icons/linkedin.png" alt="Linkedin icon"> </a>
       
     </li>
   </ul>
@@ -118,7 +117,4 @@ function generateIndex(data) {
     
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </body>
-    </html>`
-}
-
-module.exports = generateIndex;
+    </html>
