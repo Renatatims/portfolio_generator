@@ -1,0 +1,82 @@
+/*Root tag*/
+
+:root {
+    --pink: #e6a1ac;
+    --darkgrey:#3d3b3b;
+    --lightgrey:#574f4f;
+    --lightergrey:#645b5b;
+    --white:#dfe5eb;
+}
+
+/*Body*/
+
+* {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-align: center;
+
+
+}
+#jumboName{
+    color: var(--darkgrey);
+    padding: 0.5px;
+    background-color:  var(--white);
+    
+
+}
+
+#featuredProjects{
+    padding: 10px;
+    color: var(--pink);
+    background-color:  var(--white);
+}
+
+
+/*Section - Contact*/
+
+#contact {
+    background-color:  var(--white);
+    color: var(--darkgrey);
+    
+}
+
+#contact-name{
+    text-align:left;
+    padding-top: 30px;
+    margin-left: 30px;
+        
+}
+
+#contact-name a{
+    text-decoration: none;  
+    color: var(--darkgrey);
+}
+
+#contact-line{
+    height: 0.05rem;
+    width:100%;
+    background-color: var(--white);
+}
+
+.contact-icons{
+    list-style:none;
+    display: inline-flex;
+    
+}
+
+.icons{
+   margin-left: 80px;
+   margin-right: 80px;
+   justify-items: center;
+}
+
+.icons p:active{
+    user-select: all;
+    
+}
+
+.icons p:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+/*end of Section Contact*/
