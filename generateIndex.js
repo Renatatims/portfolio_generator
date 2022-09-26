@@ -34,7 +34,7 @@ function generateIndex(data) {
     <!--Jumbotron-->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Name</h1>
+          <h1 class="display-4">${data.userName}</h1>
           <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
       </div>
@@ -46,7 +46,7 @@ function generateIndex(data) {
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Project 1</h5>
+              <h5 class="card-title">${data.project1}</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -55,7 +55,7 @@ function generateIndex(data) {
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Project 2</h5>
+              <h5 class="card-title">${data.project2}</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -64,7 +64,7 @@ function generateIndex(data) {
         <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Project 3</h5>
+                <h5 class="card-title">${data.project3}</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -73,7 +73,7 @@ function generateIndex(data) {
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Project 4</h5>
+                <h5 class="card-title">${data.project4}</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
