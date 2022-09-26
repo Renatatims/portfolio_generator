@@ -1,4 +1,6 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
+const generateIndex = require('./generateIndex');
 const questions = ([
     {
         type: 'input',
@@ -53,4 +55,22 @@ function userInput() {
 return inquirer.prompt(questions);
 }
 
-userInput();
+// Function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(`${fileName}.html`, data, (err) => {
+        err ? console.log(err) : console.log(`Your html file, ${fileName}.html, was successfully generated!`);
+    })
+};
+
+// Function to initialize the application
+async function init() {
+    let userAnswers = await userInput();
+    writeToFile((userAnswers.fileName), (generateIndex(userAnswers)));
+}
+
+
+
+init();
+
+//Source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+//https://levelup.gitconnected.com/asynchronous-javascript-3-ways-5c5434819a14
