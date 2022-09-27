@@ -34,8 +34,18 @@ const questions = ([
     },
     {
         type: 'input',
+        message: 'What is the link for your project1?',
+        name: 'project1Link'
+    },
+    {
+        type: 'input',
         message: 'What is your featured project 2?',
         name: 'project2'
+    },
+    {
+        type: 'input',
+        message: 'What is the link for your project2?',
+        name: 'project2Link'
     },
     {
         type: 'input',
@@ -44,8 +54,18 @@ const questions = ([
     },
     {
         type: 'input',
+        message: 'What is the link for your project3?',
+        name: 'project3Link'
+    },
+    {
+        type: 'input',
         message: 'What is your featured project 4?',
         name: 'project4'
+    },
+    {
+        type: 'input',
+        message: 'What is the link for your project4?',
+        name: 'project4Link'
     },
     {
         type: 'input',

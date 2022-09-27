@@ -50,7 +50,7 @@ function generateIndex(data) {
             <div class="card-body">
               <h5 class="card-title">${data.project1}</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="${data.project1Link}" class="btn btn-primary">Project 1</a>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ function generateIndex(data) {
             <div class="card-body">
               <h5 class="card-title">${data.project2}</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="${data.project2Link}" class="btn btn-primary">Project 2</a>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ function generateIndex(data) {
               <div class="card-body">
                 <h5 class="card-title">${data.project3}</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="${data.project3Link}" class="btn btn-primary">Project 3</a>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ function generateIndex(data) {
               <div class="card-body">
                 <h5 class="card-title">${data.project4}</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="${data.project4Link}" class="btn btn-primary">Project 4</a>
               </div>
             </div>
           </div>
